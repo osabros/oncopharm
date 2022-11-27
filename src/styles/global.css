@@ -11,5 +11,9 @@ h1 {
 }
 
 h2 {
-  @apply text-lg font-semibold uppercase mb-4 text-blue-700
+  @apply text-xl font-semibold uppercase mb-4 text-blue-700
+}
+
+h3 {
+  @apply text-lg font-semibold text-blue-700 mb-2
 }

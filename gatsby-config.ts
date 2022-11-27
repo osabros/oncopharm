@@ -2,7 +2,7 @@ import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `oncopharm`,
+    title: `ebt`,
     // description: 'TBD',
     // image: `/helmet.png`, //https://www.flaticon.com/free-icon/helmet_6186688
     // socialImage: `/miluimnikim.jpg`,

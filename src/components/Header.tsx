@@ -21,7 +21,7 @@ export default function Header({} : HeaderProps) {
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <Link to={'/'} className="flex items-center">
               <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Logo" />
-              <span className="self-center text-xl font-semibold whitespace-nowrap">Oncopharm</span>
+              <span className="self-center text-xl font-semibold whitespace-nowrap">EBT</span>
           </Link>
           <button
             type="button"
@@ -41,7 +41,7 @@ export default function Header({} : HeaderProps) {
             onClick={() => {console.log('hello!'); setMenuOpen(false)}}
             id="navbar-default"
           >
-            <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
+            <ul className="flex flex-col p-4 mt-4  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:bg-white">
               {headerLinks.map(link =>
                 <li
                   key={link.name}

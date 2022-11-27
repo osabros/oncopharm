@@ -19,7 +19,7 @@ export default function Footer({} : FooterProps) {
       </div>
       <div className='px-4 py-10'>
         <div className='text-center text-white'>
-          Copyright © 2022 All rights reserved by OncoPharm Ltd
+          Copyright © 2022 All rights reserved by European Biopharma Therapeutics Ltd
         </div>
     </div>
   </footer>

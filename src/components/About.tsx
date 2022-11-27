@@ -32,34 +32,9 @@ export default function About({} : AboutProps) {
 
       <div className='bg-white px-4'>
         <div className='main-section'>
-          <h2>Mission</h2>
-          <p>Ensure Cancer patients receive the most appropriate Oncology Pharmacology.</p>
-        </div>
-      </div>
-      <div className='bg-gray-100 px-4'>
-        <div className='main-section'>
-          <h2>Specialization</h2>
-          <p>
-            The Oncoloy market is complex. With more than 270 licenced oncology drugs on the market, and more than 700 late stage developments, it is becoming more difficult than ever to ensure patients receive the most appropriate care.<br/>
-            At EBT, we look to ensure patient in Europe can have access to the most appropriate oncology products available globally.
-          </p>
-        </div>
-      </div>
-      <div className='bg-white px-4'>
-        <div className='main-section'>
-          <h2>Unique Value Add</h2>
-          <ul>
-            <li>Network of Euroepan oncologists</li>
-            <li>Network of European KOLs</li>
-            <li>Access to proprietary knowledge</li>
-            <li>Access to medicines</li>
-          </ul>
-        </div>
-      </div>
-      <div className='bg-gray-100 px-4'>
-        <div className='main-section'>
-        <h2>Leadership</h2>
-        <h2>Investors and advisory board</h2>
+          <h2>Our Mission</h2>
+          <p>The Oncology market is complex. With more than 270 licenced oncology drugs on the market, and more than 700 late stage developments, it is becoming more difficult than ever to ensure patients receive the most appropriate care.</p>
+          <p>At EBT, we look to ensure patient in Europe can have access to the most appropriate oncology products available globally.</p>
         </div>
       </div>
     </>
