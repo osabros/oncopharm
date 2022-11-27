@@ -10,16 +10,16 @@ export default function About({} : AboutProps) {
     <>
       <div className="h-128">
         <div className="animate-image-repeated-fade z-0" style={{animationDelay: '0'}}>
-          <StaticImage src={'../images/slide-1.jpg'} alt={'slide-1'} className={'absolute object-cover object-center w-full h-128'} />
+          <StaticImage src={'../images/slide-1.jpg'} alt={'slide-1'} className={'!absolute object-cover object-center w-full h-128'} />
         </div>
         <div className="animate-image-repeated-fade z-0" style={{animationDelay: '5s'}}>
-          <StaticImage src={'../images/slide-2.jpg'} alt={'slide-2'} className={'absolute object-cover object-center w-full h-128'} />
+          <StaticImage src={'../images/slide-2.jpg'} alt={'slide-2'} className={'!absolute object-cover object-center w-full h-128'} />
         </div>
         <div className="animate-image-repeated-fade z-0" style={{animationDelay: '10s'}}>
-          <StaticImage src={'../images/slide-3.jpg'} alt={'slide-3'} className={'absolute object-cover object-center w-full h-128'} />
+          <StaticImage src={'../images/slide-3.jpg'} alt={'slide-3'} className={'!absolute object-cover object-center w-full h-128'} />
         </div>
         <div className="animate-image-repeated-fade z-0" style={{animationDelay: '15s'}}>
-          <StaticImage src={'../images/slide-4.jpg'} alt={'slide-4'} className={'absolute object-cover object-center w-full h-128'} />
+          <StaticImage src={'../images/slide-4.jpg'} alt={'slide-4'} className={'!absolute object-cover object-center w-full h-128'} />
         </div>
         <div className='absolute z-10 w-full h-128 bg-white opacity-80'/>
         <div className='absolute z-20 w-full h-128 px-4 flex justify-center'>
