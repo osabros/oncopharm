@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
 type HeaderProps = {
 
 }
 
 const headerLinks = [
-  {name: 'Home'      , current: true,  },
-  {name: 'About'     , current: false, },
-  {name: 'Leadership', current: false, },
-  {name: 'Products'  , current: false, },
-  {name: 'Contact us', current: false, },
+  {name: 'About'     , current: false, url: 'about' },
+  {name: 'Leadership', current: false, url: 'leadership', },
+  {name: 'Contact us', current: false, url: 'contact', },
 ]
 
 export default function Header({} : HeaderProps) {
@@ -20,8 +19,8 @@ export default function Header({} : HeaderProps) {
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <Link to={'/'} className="flex items-center">
-              <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Logo" />
-              <span className="self-center text-xl font-semibold whitespace-nowrap">EBT</span>
+              <StaticImage src={'../images/icon.png'} className="w-10 h-10 mr-3" alt="Logo" />
+              <span className="self-center text-xl font-semibold whitespace-nowrap text-[#010c81]">EBT</span>
           </Link>
           <button
             type="button"
@@ -47,7 +46,7 @@ export default function Header({} : HeaderProps) {
                   key={link.name}
                 >
                   <Link
-                    to={'/'}
+                    to={`/#${link.url}`}
                     className={`block py-2 pl-3 pr-4 rounded ${link.current ? 'text-white bg-blue-700  md:bg-transparent md:text-blue-700 md:p-0 dark:text-white' : 'text-gray-700  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0'}`}
                     aria-current="page"
                   >

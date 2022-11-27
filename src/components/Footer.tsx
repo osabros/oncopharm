@@ -8,12 +8,12 @@ type FooterProps = {
 export default function Footer({} : FooterProps) {
   return (
     <footer id='footer' className='bg-neutral-800'>
-      <div className='text-white text-center px-4 py-10'>
-        <Link to={'/'} >
+      <div className='text-white text-center px-4 py-10 flex justify-center gap-4'>
+        <Link to={'/'} className='text-white hover:text-white' >
           Terms of use
         </Link>
-        {'  |  '}
-        <Link to={'/'} >
+        {'|'}
+        <Link to={'/'} className='text-white hover:text-white'>
           Privacy policy
         </Link>
       </div>

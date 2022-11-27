@@ -19,7 +19,7 @@ module.exports = {
         },
       },
       animation: {
-        'image-repeated-fade': 'repeated-fade 40s ease-in-out infinite',
+        'image-repeated-fade': 'repeated-fade 20s ease-in-out infinite',
       }
     },
   },

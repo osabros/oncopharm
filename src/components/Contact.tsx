@@ -27,7 +27,7 @@ const LocationIcon = () => (
 export default function Contact({} : ContactProps) {
   return (
     <>
-      <div className='bg-white px-4'>
+      <div className='bg-white px-4' id={'contact'}>
         <div className='main-section'>
           <h2>Contact</h2>
             <div className='md:grid md:grid-cols-2'>
@@ -49,7 +49,7 @@ export default function Contact({} : ContactProps) {
                   </a>
                 </div>
                 <div className='w-80 h-80 border border-solid border-black my-6'>
-                  <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Friedrichstra%C3%9Fe%2043-45+(EBT%20Germany)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"/>
+                  <iframe width="100%" height="100%" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Friedrichstra%C3%9Fe%2043-45+(EBT%20Germany)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"/>
                 </div>
               </div>
               <div className='py-4'>
@@ -71,7 +71,7 @@ export default function Contact({} : ContactProps) {
                   </a>
                 </div>
                 <div className='w-80 h-80 border border-solid border-black my-6'>
-                  <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Haarbaa%2028%20Tel%20aviv+(EBT%20Israeli)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"/>
+                  <iframe width="100%" height="100%" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Haarbaa%2028%20Tel%20aviv+(EBT%20Israeli)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"/>
                 </div>
               </div>
             </div>

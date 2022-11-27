@@ -83,7 +83,7 @@ const Profile = ({profile} : ProfileProps) => (
     </div>
     <div className='mt-4'>
       {profile.description.map(sentance =>
-        <p className="text-gray-600 leading-normal mb-4" key={sentance}>
+        <p className="text-gray-600 leading-normal mb-2" key={sentance}>
           {sentance}
         </p>
       )}
@@ -94,7 +94,7 @@ const Profile = ({profile} : ProfileProps) => (
 export default function Leadership({} : LeadershipProps) {
   return (
     <>
-      <div className='bg-gray-100 px-4'>
+      <div className='bg-gray-100 px-4' id='leadership'>
         <div className='main-section'>
           <h2>Leadership</h2>
           <ul className='divide-y divide-gray-400'>
