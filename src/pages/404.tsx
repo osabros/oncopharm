@@ -1,9 +1,12 @@
 import * as React from "react"
-import { Link, HeadFC, PageProps } from "gatsby"
+import { Link, HeadFC, PageProps, navigate } from "gatsby"
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 const NotFoundPage: React.FC<PageProps> = () => {
+  React.useEffect(() => {
+    navigate("/"); // redirecting to home page
+  }, []);
   return (
     <>
       <Header />
