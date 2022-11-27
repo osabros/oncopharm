@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-section {
+  @apply py-16 mx-auto container
+}
+
+h1 {
+  @apply text-3xl font-semibold mb-8 text-center
+}
+
+h2 {
+  @apply text-lg font-semibold uppercase mb-4 text-blue-700
+}
