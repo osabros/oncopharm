@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '128': '32rem',
+      },
       keyframes: {
         'repeated-fade': {
           '0%':   { opacity: 1, },

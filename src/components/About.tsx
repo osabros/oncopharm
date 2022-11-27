@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
 type AboutProps = {
@@ -7,40 +8,24 @@ type AboutProps = {
 export default function About({} : AboutProps) {
   return (
     <>
-      <div className="h-96">
+      <div className="h-128">
         <div className="animate-image-repeated-fade z-0" style={{animationDelay: '0'}}>
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-            className="absolute object-cover object-center w-full h-96"
-            alt="Wild Landscape"
-          />
+          <StaticImage src={'../images/slide-1.jpg'} alt={'slide-1'} className={'absolute object-cover object-center w-full h-128'} />
         </div>
         <div className="animate-image-repeated-fade z-0" style={{animationDelay: '2s'}}>
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-            className="absolute object-cover object-center w-full h-96"
-            alt="Camera"
-          />
+          <StaticImage src={'../images/slide-2.jpg'} alt={'slide-2'} className={'absolute object-cover object-center w-full h-128'} />
         </div>
         <div className="animate-image-repeated-fade z-0" style={{animationDelay: '4s'}}>
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-            className="absolute object-cover object-center w-full h-96"
-            alt="Exotic Fruits"
-          />
+          <StaticImage src={'../images/slide-3.jpg'} alt={'slide-3'} className={'absolute object-cover object-center w-full h-128'} />
         </div>
         <div className="animate-image-repeated-fade z-0" style={{animationDelay: '6s'}}>
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/slides/044.webp"
-            className="absolute object-cover object-center w-full h-96"
-            alt="Camera"
-          />
+          <StaticImage src={'../images/slide-4.jpg'} alt={'slide-4'} className={'absolute object-cover object-center w-full h-128'} />
         </div>
-        <div className='absolute z-10 w-full h-96 bg-white opacity-80'/>
-        <div className='absolute z-20 w-full h-96 px-4 flex justify-center'>
+        <div className='absolute z-10 w-full h-128 bg-white opacity-80'/>
+        <div className='absolute z-20 w-full h-128 px-4 flex justify-center'>
           <div className='main-section my-auto text-center'>
             <h1>European Biopharma Therapeutics</h1>
-            <p>We are an innovation driven biopharma company headquartered in Germany and Israel.</p>
+            <p className='text-xl'>We are an innovation driven biopharma company headquartered in Germany and Israel.</p>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@
 }
 
 h1 {
-  @apply text-3xl font-semibold mb-8 text-center
+  @apply text-6xl font-semibold mb-8 text-center leading-normal
 }
 
 h2 {
