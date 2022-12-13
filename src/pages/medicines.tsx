@@ -32,7 +32,7 @@ const MedicinesPage: React.FC<PageProps> = () => {
                     className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
                   />
                   <button
-                    className="min-w-max flex-1 mt-4 appearance-none bg-blue-700 text-white text-base font-semibold tracking-wider p-4 rounded shadow hover:bg-blue-900"
+                    className="ml-auto mt-4 self-end px-7 py-3 bg-blue-600 text-white font-medium uppercase leading-snug rounded shadow-md hover:bg-blue-700 hover:shadow-lg hover:text-white hover:no-underline focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                     type="submit"
                   >
                     Submit

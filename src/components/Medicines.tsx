@@ -9,7 +9,7 @@ type MedicinesProps = {
 export default function Medicines({} : MedicinesProps) {
   return (
     <>
-      <div className='h-96' id='medicines'>
+      <div className='h-96 mx-auto' id='medicines'>
         <div className="z-0">
           <StaticImage
             src={'../images/white-pill-container-blue-background.jpg'}
@@ -19,7 +19,7 @@ export default function Medicines({} : MedicinesProps) {
         </div>
 
         <div className='absolute z-10 w-full h-96 bg-white opacity-80'/>
-        <div className='absolute z-20 w-full h-96 px-4 main-section text-center flex justify-center'>
+        <div className='absolute z-20 w-full h-96 px-4 text-center flex justify-center'>
           <Link
             to='/medicines'
             type="button"
