@@ -16,13 +16,20 @@ const config: GatsbyConfig = {
     'gatsby-plugin-postcss', // for tailwind
     'gatsby-plugin-image',
     'gatsby-plugin-mdx',
-    {
-      resolve: 'gatsby-plugin-sharp',
-      options: {
-        icon: './src/images/icon.png'
-      }
-    },
+    'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `European Biopharma Therapeutics`,
+        short_name: `EBT`,
+        start_url: `/`,
+        background_color: `#000`,
+        theme_color: `#000`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
