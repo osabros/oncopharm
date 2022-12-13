@@ -16,7 +16,12 @@ const config: GatsbyConfig = {
     'gatsby-plugin-postcss', // for tailwind
     'gatsby-plugin-image',
     'gatsby-plugin-mdx',
-    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        icon: './src/images/icon.png'
+      }
+    },
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',

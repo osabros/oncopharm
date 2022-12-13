@@ -7,7 +7,9 @@ type HeaderProps = {
 }
 
 const headerLinks = [
-  {name: 'About'     , current: false, url: 'about' },
+  {name: 'Home'      , current: false, url: 'home' },
+  {name: 'Vision'    , current: false, url: 'vision' },
+  {name: 'Medicines' , current: false, url: 'medicines' },
   {name: 'Leadership', current: false, url: 'leadership', },
   {name: 'Contact us', current: false, url: 'contact', },
 ]
