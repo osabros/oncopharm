@@ -53,7 +53,7 @@ export default function Vision({} : WhyUsProps) {
             <li className='ml-5'><b>Onco-OTCTF™</b>: Digitised Order to Cash to Fulfilment to minimise supply chain disruptions.</li>
             <li className='ml-5'><b>EZpharma™</b>: Digital tool to engage with Patients and HCPs for purposes of Medical Information, Pharmacovigilance, Quality, Availability.</li>
           </ul>
-          <p className='mt-4'>Our unique value add</p>
+          <h3>Our unique value add</h3>
           <p>Over the years, through many product launches and setting up pharmaceutical companies and entities, we have developed an in depth familiarity with the market and we have a unique networks of European Oncologists, Global KOLs and access to industry leading knowledge and processes. This allows us to identify and reach the appropriate patients through their physicians and hospitals and ensure delivery of precision medicine.</p>
         </div>
       </div>

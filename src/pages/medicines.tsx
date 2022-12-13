@@ -16,7 +16,7 @@ const MedicinesPage: React.FC<PageProps> = () => {
               <form
                 onSubmit={(e) => { e.preventDefault(); console.log(e);}}
                 noValidate
-                className="bg-white shadow-md rounded p-8 pt-4"
+                className="bg-white shadow-md rounded p-8 pt-4 mt-4"
               >
                 <div className="max-w-xl mx-auto p-1 pl-0 flex flex-wrap gap-2 items-center">
                   <label
