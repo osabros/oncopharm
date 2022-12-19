@@ -10,16 +10,16 @@ module.exports = {
         '128': '32rem',
       },
       keyframes: {
-        'repeated-fade': {
-          '0%':   { opacity: 1, },
-          '17%':  { opacity: 1, },
+        'repeated-fade-and-zoom': {
+          '0%':   { opacity: 1, transform: 'scale(1)' },
+          '17%':  { opacity: 1, transform: 'scale(1.05)' },
           '25%':  { opacity: 0, },
           '92%':  { opacity: 0, },
-          '100%': { opacity: 1, },
+          '100%': { opacity: 1, transform: 'scale(1)' },
         },
       },
       animation: {
-        'image-repeated-fade': 'repeated-fade 20s ease-in-out infinite',
+        'image-repeated-fade': 'repeated-fade-and-zoom 20s ease-in-out infinite',
       }
     },
   },

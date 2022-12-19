@@ -18,7 +18,7 @@ export default function Header({} : HeaderProps) {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   return (
     <header id='header'>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+      <nav className="relative z-10 bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <Link to={'/'} className="flex items-center">
               <StaticImage src={'../images/icon.png'} className="w-10 h-10 mr-3" alt="Logo" />
