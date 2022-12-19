@@ -106,7 +106,7 @@ const Profile = ({profile} : ProfileProps) => (
 export default function Leadership({} : LeadershipProps) {
   return (
     <>
-      <div className='bg-white px-4' id='leadership'>
+      <div className='relative z-10 bg-white px-4' id='leadership'>
         <div className='main-section'>
           <h2>Leadership</h2>
           <ul className='divide-y divide-gray-400'>

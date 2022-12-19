@@ -1,3 +1,4 @@
+import { useRef, useEffect } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import { Link } from "gatsby"
@@ -7,10 +8,33 @@ type MedicinesProps = {
 }
 
 export default function Medicines({} : MedicinesProps) {
+  const parallaxRef = useRef(null);
+
+  useEffect(() => { // holy f**king shit chatgpt built this for me!!!
+    function handleScroll() {
+      if (parallaxRef === null) return
+      if (parallaxRef.current === null) return
+
+      // Calculate the scroll position of the page
+      const scrollTop = window.pageYOffset - parallaxRef.current.offsetTop;
+
+      // Update the position of the parallax element
+      parallaxRef.current.style.transform = `translateY(${scrollTop * 0.2}px)`;
+    }
+
+    // Add the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      // Remove the scroll event listener when the component unmounts
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className='h-96 mx-auto' id='medicines'>
-        <div className="z-0">
+        <div className="relative z-0" ref={parallaxRef}>
           <StaticImage
             src={'../images/white-pill-container-blue-background.jpg'}
             alt={'medicines'}
