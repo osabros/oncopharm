@@ -43,15 +43,25 @@ export default function Vision({} : WhyUsProps) {
             <li className='ml-5'>Ensure pharmaceutical compliance and GXP.</li>
             <li className='ml-5'>Secure supply through a robust SC and Ops network.</li>
           </ul>
-          <p className='mt-4'>Our proprietary digital tools include:</p>
+          <h3>Our proprietary digital tools include:</h3>
           <ul className='list-disc'>
-            <li className='ml-5'><b>Onco-Influence™</b>: Based on two decades of work on influencer networks in oncology both on a European and a global scale, OncoInfluence was developed by EBT as a specific tool for any activity in the field of oncology.<br/>
-                Based on an unprecedented depth of analysis it not only allows to fully understand the most critical networks in Oncology but also enables EBT to dovetail strategies to influence these networks.<br/>
-                The unique approach allows also for a seamless scaling of resources to ensure full alignment with the financial targets for any oncology asset.</li>
-            <li className='ml-5'><b>Onco-Reach™</b>: A tool that supports reaching the appropriate physicians.</li>
-            <li className='ml-5'><b>Onco-Net™</b>: Transparent view of use of our drugs by hospital physcians.</li>
-            <li className='ml-5'><b>Onco-OTCTF™</b>: Digitised Order to Cash to Fulfilment to minimise supply chain disruptions.</li>
-            <li className='ml-5'><b>EZpharma™</b>: Digital tool to engage with Patients and HCPs for purposes of Medical Information, Pharmacovigilance, Quality, Availability.</li>
+            <li className='ml-5'>
+              <b>Onco-Influence™</b>: Based on two decades of work on influencer networks in oncology both on a European and a global scale, OncoInfluence™ was developed by EBT as a specific tool for any activity in the field of oncology.
+                Based on an unprecedented depth of analysis it not only allows to fully understand the most critical networks in Oncology but also enables EBT to dovetail strategies to influence these networks.
+                This unique approach allows also for a seamless scaling of resources to ensure full alignment with the financial targets for any oncology asset.
+            </li>
+            <li className='ml-5'>
+              <b>OncoMind™</b>: Based on two decades of work on oncology networks both on a European and a global scale, OncoMind™ was developed by EBT as a specific tool for any activity in the field of oncology.
+                Based on an unprecedented depth of analysis OncoMind™ not only allows to fully understand the most critical networks in Oncology but also enables EBT to dovetail strategies to collaborate with these networks in the most promising way for cancer patients.
+                The unique approach allows also for a seamless scaling of activities to ensure full alignment with the available resources for any oncology asset.
+            </li>
+            <li className='ml-5'>
+              <b>OncoDecide™</b>: Based on our deep understanding of network analysis and decades of experience in the field of access and reimbursement, EBT has developed OncoDecide™.
+                This unique tool enables EBT to fully understand access and reimbursement decision maker networks in all major and mid-size markets in Europe.
+                In addition, OncoDecide™ provides EBT with actionable options to drive the access and reimbursement process in the most efficient way and with the best possible outcome for each oncology asset.
+            </li>
+            {/* <li className='ml-5'><b>Onco-OTCTF™</b>: Digitised Order to Cash to Fulfilment to minimise supply chain disruptions.</li>
+            <li className='ml-5'><b>EZpharma™</b>: Digital tool to engage with Patients and HCPs for purposes of Medical Information, Pharmacovigilance, Quality, Availability.</li> */}
           </ul>
           <h3>Our unique value add</h3>
           <p>Over the years, through many product launches and setting up pharmaceutical companies and entities, we have developed an in depth familiarity with the market and we have a unique networks of European Oncologists, Global KOLs and access to industry leading knowledge and processes. This allows us to identify and reach the appropriate patients through their physicians and hospitals and ensure delivery of precision medicine.</p>
