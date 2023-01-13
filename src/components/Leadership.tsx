@@ -78,6 +78,7 @@ const Profile = ({profile} : ProfileProps) => (
         profile.imageLocation === '../images/andreas-penk.jpg' ? <StaticImage src={'../images/andreas-penk.jpg'} className="w-16 h-16 md:w-24 md:h-24 rounded-lg mr-4" alt={profile.name} />
         : profile.imageLocation === '../images/thomas-rudolph.jfif' ? <StaticImage src={'../images/thomas-rudolph.jfif'} className="w-16 h-16 md:w-24 md:h-24 rounded-lg mr-4" alt={profile.name} />
         : profile.imageLocation === '../images/gilad-myerson.jfif' ? <StaticImage src={'../images/gilad-myerson.jfif'} className="w-16 h-16 md:w-24 md:h-24 rounded-lg mr-4" alt={profile.name} />
+        : profile.imageLocation === '../images/wu-xiaobin.jfif' ? <StaticImage src={'../images/wu-xiaobin.jfif'} className="w-16 h-16 md:w-24 md:h-24 rounded-lg mr-4" alt={profile.name} />
         : <img className="w-16 h-16 md:w-24 md:h-24 rounded-lg mr-4" src="http://i.pravatar.cc/300" alt="Avatar of Author" />
       }
       <div className="flex-1 px-2">
