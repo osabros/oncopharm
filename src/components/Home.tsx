@@ -10,16 +10,16 @@ export default function Home({} : HomeProps) {
     <>
       <div className="w-full h-128 inline-block overflow-hidden">
         <div className="relative animate-image-repeated-fade z-0 w-full h-128" style={{animationDelay: '0s'}}>
-          <StaticImage src={'../images/slide-1.jpg'} alt={'slide-1'} className={'object-cover object-center max-w-full h-full'} />
+          <StaticImage src={'../images/slide-1.jpg'} alt={'slide-1'} className={'object-cover object-center w-full h-full'} />
         </div>
         <div className="relative animate-image-repeated-fade z-0 w-full h-128" style={{animationDelay: '-5s', bottom: '100%'}}>
-          <StaticImage src={'../images/slide-2.jpg'} alt={'slide-2'} className={'object-cover object-center max-w-full h-full'} />
+          <StaticImage src={'../images/slide-2.jpg'} alt={'slide-2'} className={'object-cover object-center w-full h-full'} />
         </div>
         <div className="relative animate-image-repeated-fade z-0 w-full h-128" style={{animationDelay: '-10s', bottom: '200%'}}>
-          <StaticImage src={'../images/slide-3.jpg'} alt={'slide-3'} className={'object-cover object-center max-w-full h-full'} />
+          <StaticImage src={'../images/slide-3.jpg'} alt={'slide-3'} className={'object-cover object-center w-full h-full'} />
         </div>
         <div className="relative animate-image-repeated-fade z-0 w-full h-128" style={{animationDelay: '-15s', bottom: '300%'}}>
-          <StaticImage src={'../images/slide-4.jpg'} alt={'slide-4'} className={'object-cover object-center max-w-full h-full'} />
+          <StaticImage src={'../images/slide-4.jpg'} alt={'slide-4'} className={'object-cover object-center w-full h-full'} />
         </div>
         <div className='relative z-10 w-full h-128 bg-white opacity-80' style={{bottom: '400%'}}/>
         <div className='relative z-20 w-full h-128 px-4 flex justify-center' style={{bottom: '500%'}}>
