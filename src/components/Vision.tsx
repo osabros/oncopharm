@@ -45,11 +45,11 @@ export default function Vision({} : WhyUsProps) {
           </ul>
           <h3>Our proprietary digital tools include:</h3>
           <ul className='list-disc'>
-            <li className='ml-5'>
+            {/* <li className='ml-5'>
               <b>Onco-Influence™</b>: Based on two decades of work on influencer networks in oncology both on a European and a global scale, OncoInfluence™ was developed by EBT as a specific tool for any activity in the field of oncology.
                 Based on an unprecedented depth of analysis it not only allows to fully understand the most critical networks in Oncology but also enables EBT to dovetail strategies to influence these networks.
                 This unique approach allows also for a seamless scaling of resources to ensure full alignment with the financial targets for any oncology asset.
-            </li>
+            </li> */}
             <li className='ml-5'>
               <b>OncoMind™</b>: Based on two decades of work on oncology networks both on a European and a global scale, OncoMind™ was developed by EBT as a specific tool for any activity in the field of oncology.
                 Based on an unprecedented depth of analysis OncoMind™ not only allows to fully understand the most critical networks in Oncology but also enables EBT to dovetail strategies to collaborate with these networks in the most promising way for cancer patients.
