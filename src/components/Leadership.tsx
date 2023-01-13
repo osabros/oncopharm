@@ -45,8 +45,10 @@ const investors : ProfileType[] = [
     ]
   },
   {
-    name: 'Wu Xiaobin, Ph.D',
+    name: 'Xiaobing Wu, Ph.D',
     role: 'Advisor',
+    linkedinProfile: 'https://www.linkedin.com/in/xiaobing-wu-a60b49b0/',
+    imageLocation: '../images/wu-xiaobin.jfif',
     description: [
       'Dr. Wu previously was Country Manager of Pfizer China and the Regional President of Pfizer Essential Health for Greater China from 2009 to 2018.',
       'Under Dr. Wu’s leadership, Pfizer expanded its portfolio and organization, significantly grew sales, initiated innovative marketing programs, and established its position as a leading multinational pharmaceutical company in China. Prior to Pfizer, Dr. Wu served as President and Managing Director of Wyeth China and Hong Kong (2004-2009). Before joining Wyeth, Dr. Wu was General Manager of Bayer Healthcare in China (2001-2004). He started his career in 1992 in sales and marketing with Bayer in Germany',
