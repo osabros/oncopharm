@@ -38,7 +38,7 @@ export default function Medicines({} : MedicinesProps) {
           <StaticImage
             src={'../images/white-pill-container-blue-background.jpg'}
             alt={'medicines'}
-            className={'!absolute object-cover object-top w-full h-96'}
+            className={'!absolute object-cover object-top w-full h-128'}
           />
         </div>
 
