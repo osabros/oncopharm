@@ -27,7 +27,7 @@ const leaders : ProfileType[] = [
   },
   {
     name: 'Dr. Thomas Rudolph',
-    role: 'CMO',
+    role: 'Board member and Co-founder',
     linkedinProfile: 'https://www.linkedin.com/in/thomas-rudolph-303995/',
     imageLocation: '../images/thomas-rudolph.jfif',
     description: [
@@ -37,13 +37,6 @@ const leaders : ProfileType[] = [
 ]
 
 const investors : ProfileType[] = [
-  {
-    name: 'Freda Lewis-Hall',
-    role: 'Investor',
-    description: [
-      'TBD',
-    ]
-  },
   {
     name: 'Xiaobing Wu, Ph.D',
     role: 'Advisor',
