@@ -27,7 +27,7 @@ const LocationIcon = () => (
 export default function Contact({} : ContactProps) {
   return (
     <>
-      <div className='bg-gray-100 px-4' id='contact'>
+      <div className='bg-gray-100 px-4 lg:px-[5%]' id='contact'>
         <div className='main-section'>
           <h2>Contact</h2>
             <div className='md:grid md:grid-cols-2'>

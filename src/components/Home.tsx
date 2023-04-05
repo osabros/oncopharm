@@ -30,7 +30,7 @@ export default function Home({} : HomeProps) {
         </div>
       </div>
 
-      <div className='relative bg-white px-4' id='home'>
+      <div className='relative bg-white px-4 lg:px-[5%]' id='home'>
         <div className='main-section'>
           <h2>Our Mission</h2>
           <p><b>Precision Medicine:</b> Deliver the right life-saving medications to the right patients.</p>

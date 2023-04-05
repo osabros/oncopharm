@@ -7,7 +7,7 @@ type WhyUsProps = {
 export default function Vision({} : WhyUsProps) {
   return (
     <>
-      <div className='bg-gray-100 px-4' id='vision'>
+      <div className='bg-gray-100 px-4 lg:px-[5%]' id='vision'>
         <div className='main-section leading-relaxed'>
           <h2>Our vision: Advancing therapeutic options for patients in small and neglected indications</h2>
 
@@ -33,7 +33,7 @@ export default function Vision({} : WhyUsProps) {
           <p>With this combination European Biopharma Therapeutics will lead the way to a novel pharma model that will allow to fulfil the vision of “precision medicine”, will make niche medications available to small and neglected patient populations starting in oncology and expanding to other specialty therapeutic areas, and will eventually serve as the blueprint for a new generation of biopharmaceutical companies paving the way to “individualized care”.</p>
         </div>
       </div>
-      <div className='relative z-10 bg-white px-4'>
+      <div className='relative z-10 bg-white px-4 lg:px-[5%]'>
         <div className='main-section'>
           <h2>Our Approach</h2>
           <h3>We are a team of very experienced Physicians and Pharmaceutical Executives.</h3>
